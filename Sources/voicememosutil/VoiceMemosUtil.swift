@@ -3,8 +3,10 @@
 import ArgumentParser
 
 @main
-struct VoiceMemosUtil: ParsableCommand {
-    mutating func run() throws {
-        print("Hello, world!")
-    }
+struct VoiceMemosUtil: AsyncParsableCommand {
+    static let configuration = CommandConfiguration(
+        commandName: "voicememosutil",
+        abstract: "A utility to manage Apple Voice Memos recordings.",
+        subcommands: [GetTranscript.self]
+    )
 }

@@ -1,0 +1,11 @@
+{
+  "attributedString": [
+    "This is",
+    { "timeRange": [0, 0.42] },
+    " the transcript text",
+    { "timeRange": [0.42, 1.23] },
+    " interleaved with attributes.",
+    { "timeRange": [1.23, 2.0] }
+  ],
+  "locale": { "identifier": "en_US", "current": 0 }
+}

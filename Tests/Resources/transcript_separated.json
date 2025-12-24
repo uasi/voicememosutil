@@ -1,0 +1,18 @@
+{
+  "attributedString": {
+    "attributeTable": [
+      { "timeRange": [0, 0.42] },
+      { "timeRange": [0.42, 1.23] },
+      { "timeRange": [1.23, 2.0] }
+    ],
+    "runs": [
+      "In this format",
+      0,
+      " text is interleaved with",
+      1,
+      " indices of attributes.",
+      2
+    ]
+  },
+  "locale": { "identifier": "en_US", "current": 0 }
+}
