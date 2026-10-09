@@ -8,7 +8,7 @@ A command-line utility to manage Apple Voice Memos recordings.
 
 ## Installation
 
-Build from source using Swift 6.2+:
+Build from source using Swift 6.4+:
 
 ```bash
 swift build -c release
