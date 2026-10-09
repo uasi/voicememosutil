@@ -42,7 +42,7 @@ Voice Memos recordings are stored at:
 
 ### JSON output format
 
-Returns the full transcript metadata including timing information. Two formats are used depending on the source:
+Returns the full transcript metadata including timing information. Three formats are used depending on the source:
 
 **Interleaved format:**
 
@@ -79,6 +79,15 @@ Returns the full transcript metadata including timing information. Two formats a
       2
     ]
   },
+  "locale": { "identifier": "en_US", "current": 0 }
+}
+```
+
+**String format:** (Apparently only used when a recording is empty.)
+
+```json
+{
+  "attributedString": "",
   "locale": { "identifier": "en_US", "current": 0 }
 }
 ```

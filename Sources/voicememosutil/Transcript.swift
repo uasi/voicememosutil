@@ -40,6 +40,10 @@ struct Transcript {
             throw Error.invalidFormat
         }
 
+        if let string = attributedString as? String {
+            return string
+        }
+
         if let interleaved = attributedString as? [Any] {
             let strings = interleaved.compactMap { $0 as? String }
             guard !strings.isEmpty else {
